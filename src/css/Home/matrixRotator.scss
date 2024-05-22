@@ -4,12 +4,12 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  .matrix-title {
+  .matrix-rotator-title {
     font-size: 2rem;
     color: #4caf50;
     text-align: center;
     padding: 10px 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(86, 86, 86, 0.5);
   }
   .matrix-input {
     width: 100%;
@@ -25,11 +25,11 @@
       padding: 15px;
       border: 2px solid #4caf50;
       border-radius: 12px;
-      color: white;
+      color: rgb(158, 158, 158);
       font-size: 16px;
       font-family: "Courier New", Courier, monospace;
       resize: both;
-      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      text-shadow: 2px 2px 4px rgba(86, 86, 86, 0.2);
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -40,7 +40,7 @@
     }
 
     .textarea::placeholder {
-      color: #888;
+      color: #a6a6a6;
       font-style: italic;
     }
     .button {
@@ -64,6 +64,11 @@
     .button:active {
       background-color: #3e8e41;
       transform: scale(0.95);
+    }
+    .error-message {
+      color: red;
+      font-size: 0.875rem; /* Tamaño de letra pequeño */
+      margin-top: 0.5rem; /* Espacio por encima del mensaje */
     }
   }
   .matrix-container {

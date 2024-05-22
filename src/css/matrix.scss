@@ -4,13 +4,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .matrix-title {
+    font-size: 1.5rem;
+    color: #4caf50;
+    text-align: center;
+    padding: 10px 20px;
+  }
   .matrix-table {
     border-collapse: collapse;
     margin: 10px 0;
-    border: 2px solid #ffffff;
+    border: 2px solid #adadad;
 
     .matrix-td {
-      border: 1px solid #ffffff;
+      border: 1px solid #adadad;
       padding: 10px;
       text-align: center;
       min-width: 40px;
